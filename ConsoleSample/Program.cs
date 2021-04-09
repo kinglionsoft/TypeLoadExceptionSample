@@ -8,7 +8,13 @@ namespace ConsoleSample
         {
             var t = typeof(EfRepositoryBase<,>);
             // or
-            // typeof(Class1).Assembly.DefinedTypes.ToList();
+            // typeof(Program).Assembly.DefinedTypes.ToList();
+            /*
+             *  System.TypeLoadException:
+             *     Method 'Max' in type 'ConsoleSample.EfRepositoryBase`2'
+             *     from assembly 'ConsoleSample, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'
+             *     does not have an implementation.
+             */
             Console.WriteLine("Hello World!");
         }
     }

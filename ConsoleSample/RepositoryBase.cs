@@ -80,5 +80,32 @@ namespace ConsoleSample
         {
             throw new NotImplementedException();
         }
+        
+
+        //public async Task<(int Total, IList<TEntity> Items)> GetPagedListAsync(Expression<Func<TEntity, bool>> predicate, Func<IQueryable<TEntity>, IQueryable<TEntity>> orderByCreator, int skip, int take,
+        //    CancellationToken cancellation = default)
+        //{
+        //    throw new NotImplementedException();
+        //}
+
+        //public async Task<TEntity> SingleAsync(Expression<Func<TEntity, bool>> predicate, CancellationToken cancellation = default)
+        //{
+        //    throw new NotImplementedException();
+        //}
+
+        //public async Task<TEntity?> FirstOrDefaultAsync(TKey id, CancellationToken cancellation = default)
+        //{
+        //    throw new NotImplementedException();
+        //}
+
+        //public async Task<TEntity?> FirstOrDefaultAsync(Expression<Func<TEntity, bool>> predicate, CancellationToken cancellation = default)
+        //{
+        //    throw new NotImplementedException();
+        //}
+
+        //public async Task<TEntity?> FirstOrDefaultAsync(Expression<Func<TEntity, bool>> predicate, Func<IQueryable<TEntity>, IOrderedQueryable<TEntity>> configOrderBy, CancellationToken cancellation = default)
+        //{
+        //    throw new NotImplementedException();
+        //}
     }
 }
